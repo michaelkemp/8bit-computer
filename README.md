@@ -38,7 +38,7 @@ SUB 15
 Instruction: 0100 1111
 
 ### STA - 0101
-Store A-Register in RAM
+Store A-Register at RAM Address
 ```
 STA 15
 ```
