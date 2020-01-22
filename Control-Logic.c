@@ -31,22 +31,10 @@
 #define FLAGS_Z1C0 2
 #define FLAGS_Z1C1 3
 
-#define NOP 0b0000  // No Operation
-#define LDA 0b0001  // Load A-Register with Value from RAM Address
-#define LDI 0b0010  // Load A-Register with Value
-#define ADD 0b0011  // Add Value from RAM Address to A-Register
-#define SUB 0b0100  // Sub Value from RAM Address from A-Register
-#define STA 0b0101  // Store A-Register in RAM
-#define INC 0b0110  // Add Value to A-Register
-#define DEC 0b0111  // Sub Value from A-Register
-#define OUT 0b1000  // Display Contents of A-Register
 #define JNC 0b1001  // Jump to Address on Carry Flag NOT Set
 #define JNZ 0b1010  // Jump to Address on Zero Flag NOT Set
-#define DSP 0b1011  // Display Contents of RAM Address
-#define JMP 0b1100  // Jump to Address
 #define JC  0b1101  // Jump to Address on Carry Flag Set
 #define JZ  0b1110  // Jump to Address on Zero Flag Set
-#define HLT 0b1111  // Stop Clock
 
 
 uint16_t UCODE_TEMPLATE[16][8] = {
